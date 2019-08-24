@@ -7,9 +7,9 @@
 import java.io.*; 
 import java.net.*; 
 
-class TCPServer {
+public class SFTPServer {
     
-    public static void main(String argv[]) throws Exception 
+    public SFTPServer(int port) throws Exception
     { 
 	String clientSentence; 
 	String capitalizedSentence; 
@@ -18,7 +18,7 @@ class TCPServer {
 	
 	while(true) { 
 	    
-            Socket connectionSocket = welcomeSocket.accept(); 
+		Socket connectionSocket = welcomeSocket.accept();
 	    
 	    BufferedReader inFromClient = 
 		new BufferedReader(new

@@ -1,14 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6407d80d-1202-456a-819f-c7f1979253fa" name="Default Changelist" comment="" />
+    <list default="true" id="6407d80d-1202-456a-819f-c7f1979253fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SFTPProtocolTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/AVINASH-CODE/.idea/AVINASH-CODE.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/AVINASH-CODE/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/AVINASH-CODE/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/AVINASH-CODE/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/TCPClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/test/TCPServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVINASH-CODE/.idea/AVINASH-CODE.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVINASH-CODE/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVINASH-CODE/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVINASH-CODE/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVINASH-CODE/TCPClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVINASH-CODE/TCPServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVINASH-CODE/UDPClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVINASH-CODE/UDPServer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVINASH-CODE/WebServer.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1PfqoGmaKsdTtYFqm2QSySu2SCx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -21,27 +54,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Run Client">
-    <configuration name="Run Client" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="TCPClient" />
+  <component name="RunManager">
+    <configuration name="Run Sever/Client " type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="SFTPProtocolTest" />
       <module name="test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run Server" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="TCPServer" />
-      <module name="test" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Run Server" />
-      <item itemvalue="Application.Run Client" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -55,5 +75,18 @@
       <updated>1566275671915</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
