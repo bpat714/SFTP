@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6407d80d-1202-456a-819f-c7f1979253fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Accounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/State.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loginStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/SFTPClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/SFTPClient.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/test/SFTPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/SFTPServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/test/UDPClient.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/test/UDPServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/test/UDPServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SFTPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SFTPClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SFTPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SFTPServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UDPClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UDPServer.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

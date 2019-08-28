@@ -4,8 +4,6 @@
  * All Rights Reserved.
  **/
 
-import org.w3c.dom.ls.LSResourceResolver;
-import sun.java2d.pipe.SpanShapeRenderer;
 
 import java.io.*;
 import java.net.*;
