@@ -4,7 +4,8 @@
  * All Rights Reserved.
  **/
 
-import java.io.*; 
+import javax.xml.crypto.Data;
+import java.io.*;
 import java.net.*; 
 public class SFTPClient {
     
@@ -12,21 +13,16 @@ public class SFTPClient {
     { 
         String sentence; 
         String modifiedSentence;
+        boolean active = true;
 
-        while(true) {
+        Socket clientSocket = new Socket("localhost", 115);
+        BufferedReader inFromUser = new BufferedReader(new InputStreamReader(System.in));
 
-            BufferedReader inFromUser =
-                    new BufferedReader(new InputStreamReader(System.in));
+        DataOutputStream outToServer = new DataOutputStream(clientSocket.getOutputStream());
 
-            Socket clientSocket = new Socket("localhost", 115);
+        BufferedReader inFromServer = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
 
-            DataOutputStream outToServer =
-                    new DataOutputStream(clientSocket.getOutputStream());
-
-
-            BufferedReader inFromServer =
-                    new BufferedReader(new
-                            InputStreamReader(clientSocket.getInputStream()));
+        while(active) {
 
             sentence = inFromUser.readLine();
 
@@ -36,7 +32,10 @@ public class SFTPClient {
 
             System.out.println("FROM SERVER: " + modifiedSentence);
 
-            //clientSocket.close();
+            if(modifiedSentence.equals("+")){
+                active = false;
+            }
         }
+        clientSocket.close();
     } 
 } 
