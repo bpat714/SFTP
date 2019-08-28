@@ -10,7 +10,7 @@ IMPORTANT
 
 Testing
 
-- Open the project in IntelliJ IDEA
+- Open the test project in IntelliJ IDEA located inside bpat714 folder
 - Run the project in the terminal (main class in SFTPProtocolTest.java)
   - Will create both server and client instances
 - Type the commands in the terminal as specified in the documentation, excluding NULLS
